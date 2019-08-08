@@ -30,8 +30,9 @@ h1 {
   }
 
 
- p {
+ .3actions {
    font-family: monospace;
+   color: white;
  }
   h6 {
     color: black;
@@ -40,7 +41,18 @@ h1 {
   .headings {
     font-family: monospace;
   }
-
+  #1action {
+    background-color: #fb2e01;
+  }
+  #2action {
+    background-color: #fffeb3;
+  }
+  #3action {
+  background-color: #6fcb9f;
+  }
+  #verse {
+    color: #fb2e01;
+  }
 </style>
 
 </head>
@@ -91,15 +103,15 @@ h1 {
       </h6>
       </a>
       
-      <p>
-        _____Love with action <br>
-        Empathize with action <br>
-        ___Ideate with action <br>
+      <p class="3actions">
+        <span id="1action">_____Love with action <br></span>
+        <span id="2action"> Empathize with action <br></span>
+    <span id="3action"> ___Ideate with action <br></span>
       </p>
-        <p>
+        <p class="3actions">
           <br>
           <br>
-        Luke 3:11
+       <span id="verse"> Luke 3:11 </span>
       </p>
 </center>
 
